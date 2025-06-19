@@ -1,28 +1,69 @@
- # Agentic Feedback Analyzer
+# Welcome to your Lovable project
 
-This repository contains the implementation and design logic of an Agentic AI system developed as part of a thesis exploring the next generation of feedback analysis tools. The system leverages cutting-edge language models (LLMs) to categorize and prioritize qualitative user feedback in real-time, providing strategic insights for product and marketing teams.
+## Project info
 
-## 🧠 Core Objective
+**URL**: https://lovable.dev/projects/0263e6ab-7bbe-4bce-89c4-c29c1d95a472
 
-Traditional feedback analysis methods (e.g., ML classifiers, rule-based NLP, sentiment scoring) often fall short in delivering nuanced and actionable business intelligence. This AI agent aims to overcome those limitations by embedding reasoning, adaptability, and contextual understanding into the analysis pipeline.
+## How can I edit this code?
 
-## 🚀 Key Features
+There are several ways of editing your application.
 
-- **Agentic Architecture**: A modular reasoning loop allowing dynamic task planning, memory usage, and self-correction.
-- **LLM-Powered Categorization**: Semantic classification of feedback using advanced LLMs (e.g., Gemini 1.5 Pro, ChatGPT, etc.).
-- **Priority Scoring**: Multi-criteria prioritization of feedback based on urgency, relevance, and impact.
-- **Zero-Shot & Few-Shot Capabilities**: No need for large training datasets — the agent adapts to new domains quickly.
-- **Interface Ready**: Designed for seamless integration with modern frontends (React/Vite stack).
+**Use Lovable**
 
-## 🏗️ Architecture Overview
+Simply visit the [Lovable Project](https://lovable.dev/projects/0263e6ab-7bbe-4bce-89c4-c29c1d95a472) and start prompting.
 
-- **Frontend**: React + Tailwind + Framer Motion (Kappt prototype)
-- **Agent Layer**: Reasoning & orchestration layer managing prompt flow, tools, and memory.
-- **LLM Backend**: Gemini, OpenAI, or custom adapters.
-- **Output**: Structured insights in JSON/CSV formats, ready for dashboards or API consumption.
+Changes made via Lovable will be committed automatically to this repo.
 
-## 🎯 Use Case
+**Use your preferred IDE**
 
-Developed as a part of a master’s thesis at the Higher School of Statistics and Applied Economics, this project addresses a key business challenge: how to extract strategic value from messy, unstructured feedback data at scale.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with .
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/0263e6ab-7bbe-4bce-89c4-c29c1d95a472) and click on Share -> Publish.
+
+## I want to use a custom domain - is that possible?
+
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
